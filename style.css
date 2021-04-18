@@ -1,0 +1,157 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.header {
+    padding-top: 200px;
+    padding-bottom: 100px;
+    
+    background-color: #E5E5E5;
+}
+
+.heading {
+    font-weight: 600;
+    text-align: center;
+    letter-spacing: -0.02em;
+}
+
+.text {
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 120%;
+    text-align: center;
+    letter-spacing: -0.02em;
+    color: #000000;
+}
+
+.link {
+    text-decoration: none;
+}
+
+.header__heading {
+    font-size: 75px;
+    line-height: 100%;
+    margin-bottom: 20px;
+    max-width: 1055px;
+}
+
+.header__text {
+    max-width: 779px;
+    margin-bottom: 64px;
+}
+
+.link-block {
+    display: flex;
+}
+
+.header__link {
+    max-width: 270px;
+    background-color: #000000;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    padding: 24px 21px 26px;
+}
+
+.header__link:not(:last-child) {
+    margin-right: 30px;
+}
+
+.header__icon {
+    margin-right: 13px;
+}
+
+.link-text {
+    font-size: 18px;
+    color: #ffffff;
+}
+
+.things-to-do {
+    background-color: #000000;
+    padding-bottom: 85px;
+}
+
+.things-to-do__heading {
+    color: #ffffff;
+    font-size: 45px;
+    line-height: 120%;
+    max-width: 779px;
+}
+
+.slider {
+    display: flex;
+    align-items: center;
+}
+
+.button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.other {
+    padding-top: 104px;
+    padding-bottom: 200px;
+    background-color: #FFFFFF;
+}
+
+.other__heading {
+    margin-bottom: 50px;
+    font-size: 50px;
+    line-height: 100%;
+    color: #000000;
+}
+
+.card-block {
+    display: flex;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 384px;
+}
+
+.second-card {
+    width: 420px;
+}
+
+.card:not(:last-child) {
+    margin-right: 50px;
+}
+
+.card__heading {
+    font-size: 35px;
+    line-height: 120%;
+    color: #000000;
+    margin-bottom: 10px;
+}
+
+.bg-img {
+    width: 150px;
+    height: 150px;
+    margin-bottom: 18px;
+}
+
+.light-card {
+    background-image: url(img/lightbulb-icon.svg);
+}
+
+.browse-card {
+    background-image: url(img/browse-icon.svg);
+}
+
+.tel-card {
+    background-image: url(img/tel-icon.svg);
+}
